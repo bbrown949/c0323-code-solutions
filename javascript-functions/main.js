@@ -19,10 +19,10 @@ const area = getArea(17, 42);
 console.log('the area is:', area);
 
 function getFirstName(person) {
-  return person;
+  return person.firstName;
 }
 const firstName = getFirstName({ firstName: 'Lelouche', lastName: 'Lamperouge' });
-console.log('first name:', firstName.firstName);
+console.log('first name:', firstName);
 
 function getLastElement(array) {
   const lastIndex = array.length - 1;
