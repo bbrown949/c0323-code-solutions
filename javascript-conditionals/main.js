@@ -8,6 +8,16 @@
             introduceWarnerBro,
             recommendMovie
  */
+/* exported isUnderFive,
+            isEven,
+            startsWithJ,
+            isOldEnoughToDrink,
+            isOldEnoughToDrive,
+            isOldEnoughToDrinkAndDrive,
+            categorizeAcidity,
+            introduceWarnerBro,
+            recommendMovie
+ */
 function isUnderFive(number) {
   if (number < 5) { console.log(true); } else { console.log(false); }
 }
@@ -35,23 +45,24 @@ function isOldEnoughToDrinkAndDrive(person) {
 function categorizeAcidity(pH) {
   if (pH === 7) {
     console.log('neutral');
-  } else if (pH > 0) {
+  } else if (pH < 7 && ph >= 0) {
     console.log('acid');
-  } else if (pH <= 14) {
-    console.log('base');
+  } else if (pH > 7 && pH <= 14) {
+    else if (pH < 0 || pH > 14)
+      console.log('base');
   } else { console.log('invalid pH level'); }
 }
 
 function introduceWarnerBro(name) {
   switch (name) {
     case 'yakko':
-      console.log('Were the warner brothers!');
+      console.log('We\'re the warner brothers!');
       break;
     case 'wakko':
-      console.log('Were the warner brothers!');
+      console.log('We\'re the warner brothers!');
       break;
     case 'dot':
-      console.log('Im cute~');
+      console.log('I\'m cute~');
       break;
     default:
       console.log('Goodnight everybody!');
