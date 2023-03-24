@@ -11,6 +11,5 @@ function oddOrEven(numbers) {
     if (numbers[i] % 2 === 0) {
       output.push('even');
     } else output.push('odd');
-  }
-  return output;
+  } return output;
 }
