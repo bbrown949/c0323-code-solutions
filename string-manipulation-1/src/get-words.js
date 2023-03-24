@@ -1,4 +1,8 @@
 /* exported getWords */
 function getWords(string) {
-  return string.split(' ');
+  if (string.length === 0) {
+    return [];
+  } else {
+    return string.split(' ');
+  }
 }
