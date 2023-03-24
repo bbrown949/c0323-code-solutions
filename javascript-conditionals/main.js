@@ -12,14 +12,20 @@
 function isUnderFive(number) {
   if (number < 5) { console.log(true); } else { console.log(false); }
 }
+console.log('is 4 under 5?', isUnderFive(4));
+console.log('is 7 under 5?', isUnderFive(7));
 
 function isEven(number) {
   if (number % 2 === 0) { console.log(true); } else { console.log(false); }
 }
+console.log('is 7 even?', isEven(7));
+console.log('is 4 even?', isEven(4));
 
 function startsWithJ(string) {
   if (string[0] === 'J') { console.log(true); } else { console.log(false); }
 }
+console.log('does John start with J:', startsWithJ('John'));
+console.log('does Bryan start with J:', startsWithJ('Bryan'));
 function isOldEnoughToDrink(person) {
   if (person.age >= 21) { console.log(true); } else { console.log(false); }
 }
@@ -43,6 +49,10 @@ function categorizeAcidity(pH) {
     console.log('invalid pH level');
   }
 }
+console.log('pH of 7:', categorizeAcidity(7));
+console.log('pH of 3:', categorizeAcidity(3));
+console.log('pH of 8:', categorizeAcidity(8));
+console.log('pH of -1:', categorizeAcidity(-1));
 
 function introduceWarnerBro(name) {
   switch (name) {
@@ -59,6 +69,10 @@ function introduceWarnerBro(name) {
       console.log('Goodnight everybody!');
   }
 }
+console.log('yakko:', introduceWarnerBro('yakko'));
+console.log('wakko:', introduceWarnerBro('wakko'));
+console.log('dot:', introduceWarnerBro('dot'));
+console.log('bob:', introduceWarnerBro('bob'));
 
 function recommendMovie(genre) {
   switch (genre) {
@@ -85,3 +99,10 @@ function recommendMovie(genre) {
 
   }
 }
+console.log('action movie:', recommendMovie('action'));
+console.log('comedy movie:', recommendMovie('comedy'));
+console.log('horror movie:', recommendMovie('horror'));
+console.log('drama movie:', recommendMovie('drama'));
+console.log('musical movie:', recommendMovie('musical'));
+console.log('sci-fi movie:', recommendMovie('sci-fi'));
+console.log('classic movie:', recommendMovie('classic'));
