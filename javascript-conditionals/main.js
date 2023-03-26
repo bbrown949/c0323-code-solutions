@@ -60,10 +60,15 @@ const homer = {
 console.log(homer);
 
 function isOldEnoughToDrinkAndDrive(person) {
-  if (person >= 0) {
+  if (person.age >= 0) {
     return false;
   }
 }
+const bryan = {
+  name: 'Bryan Brown',
+  age: 36
+};
+console.log(bryan);
 
 function categorizeAcidity(pH) {
   if (pH === 7) {
@@ -93,24 +98,18 @@ function introduceWarnerBro(name) {
 function recommendMovie(genre) {
   switch (genre) {
     case 'action':
-      console.log('Die Hard');
-      break;
+      return 'Die Hard';
     case 'comedy':
-      console.log('Step Brothers');
-      break;
+      return 'Step Brothers';
     case 'horror':
-      console.log('It');
-      break;
+      return 'It';
     case 'drama':
-      console.log('The Shawshank Redemption');
-      break;
+      return 'The Shawshank Redemption';
     case 'musical':
-      console.log('Footloose');
-      break;
+      return 'Footloose';
     case 'sci-fi':
-      console.log('2001 A Space Odyssy');
-      break;
+      return '2001 A Space Odyssy';
     default:
-      console.log('Genre not recognized. Choose between action, comedy, horror, drama, musical, or sci-fi');
+      return 'Genre not recognized. Choose between action, comedy, horror, drama, musical, or sci-fi';
   }
 }
