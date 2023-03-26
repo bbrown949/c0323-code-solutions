@@ -44,7 +44,16 @@ function logEachCharacter(string) {
     console.log(string[i]);
   }
 }
-console.log('logEachCharacter', logEachCharacter('Bryan Brown'));
+console.log(logEachCharacter('Bryan Brown'));
+
+function doubleAll(numbers) {
+  const doubled = [];
+  for (let i = 0; i < numbers.length; i++) {
+    doubled.push(numbers[i] * 2);
+  }
+  return doubled;
+}
+console.log('doubleAll 7, 14, 21', doubleAll([7, 14, 21]));
 
 function getKeys(object) {
   const keys = [];
