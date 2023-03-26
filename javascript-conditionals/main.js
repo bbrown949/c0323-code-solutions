@@ -10,69 +10,85 @@
  */
 
 function isUnderFive(number) {
-  if (number < 5) { console.log(true); } else { console.log(false); }
+  if (number < 5) {
+    return true;
+  } else {
+    return false;
+  }
 }
-console.log('is 4 under 5?', isUnderFive(4));
-console.log('is 7 under 5?', isUnderFive(7));
 
 function isEven(number) {
-  if (number % 2 === 0) { console.log(true); } else { console.log(false); }
+  if (number % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
 }
-console.log('is 7 even?', isEven(7));
-console.log('is 4 even?', isEven(4));
 
 function startsWithJ(string) {
-  if (string[0] === 'J') { console.log(true); } else { console.log(false); }
+  if (string[0] === 'J') {
+    return true;
+  } else {
+    return false;
+  }
 }
-console.log('does John start with J:', startsWithJ('John'));
-console.log('does Bryan start with J:', startsWithJ('Bryan'));
+
 function isOldEnoughToDrink(person) {
-  if (person.age >= 21) { console.log(true); } else { console.log(false); }
+  if (person.age >= 21) {
+    return true;
+  } else {
+    return false;
+  }
 }
+const bart = {
+  name: 'Bartholomew JoJo Simpson',
+  age: 10
+};
+console.log(bart);
 
 function isOldEnoughToDrive(person) {
-  if (person.age >= 16) { console.log(true); } else { console.log(false); }
+  if (person.age >= 16) {
+    return true;
+  } else {
+    return false;
+  }
 }
+const homer = {
+  name: 'Homer Jay Simpson',
+  age: 39
+};
+console.log(homer);
 
 function isOldEnoughToDrinkAndDrive(person) {
-  if (person >= 0) { console.log(false); }
+  if (person >= 0) {
+    return false;
+  }
 }
 
 function categorizeAcidity(pH) {
   if (pH === 7) {
-    console.log('neutral');
+    return 'neutral';
   } else if (pH < 7 && pH >= 0) {
-    console.log('acid');
+    return 'acid';
   } else if (pH > 7 && pH <= 14) {
-    console.log('base');
+    return 'base';
   } else if (pH < 0 || pH > 14) {
-    console.log('invalid pH level');
+    return 'invalid pH level';
   }
 }
-console.log('pH of 7:', categorizeAcidity(7));
-console.log('pH of 3:', categorizeAcidity(3));
-console.log('pH of 8:', categorizeAcidity(8));
-console.log('pH of -1:', categorizeAcidity(-1));
 
 function introduceWarnerBro(name) {
   switch (name) {
     case 'yakko':
-      console.log('We\'re the warner brothers!');
-      break;
+      return 'We\'re the warner brothers!';
     case 'wakko':
-      console.log('We\'re the warner brothers!');
-      break;
+      return 'We\'re the warner brothers!';
     case 'dot':
-      console.log('I\'m cute~');
-      break;
+      return 'I\'m cute~';
     default:
-      console.log('Goodnight everybody!');
+      return 'Goodnight everybody!';
   }
 }
-console.log('yakko:', introduceWarnerBro('yakko'));
-console.log('wakko:', introduceWarnerBro('wakko'));
-console.log('dot:', introduceWarnerBro('dot'));
-console.log('bob:', introduceWarnerBro('bob'));
 
 function recommendMovie(genre) {
   switch (genre) {
@@ -96,13 +112,5 @@ function recommendMovie(genre) {
       break;
     default:
       console.log('Genre not recognized. Choose between action, comedy, horror, drama, musical, or sci-fi');
-
   }
 }
-console.log('action movie:', recommendMovie('action'));
-console.log('comedy movie:', recommendMovie('comedy'));
-console.log('horror movie:', recommendMovie('horror'));
-console.log('drama movie:', recommendMovie('drama'));
-console.log('musical movie:', recommendMovie('musical'));
-console.log('sci-fi movie:', recommendMovie('sci-fi'));
-console.log('classic movie:', recommendMovie('classic'));
