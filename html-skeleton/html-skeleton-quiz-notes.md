@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Where do you put non-visible content about the HTML document?
-DOCTYPE goes at the top
+in between the head tags
 - Where do you put visible content about the HTML document?
 between the title and body elements
 - Where do the `<head>` and `<body>` tags go in a valid HTML document?
