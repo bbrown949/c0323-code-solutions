@@ -11,7 +11,7 @@ between the title and body elements
 - Where do the `<head>` and `<body>` tags go in a valid HTML document?
 within the opening a nd closing html elements
 - What is the purpose of a `<!DOCTYPE>` declaration?
-
+The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect.
 ## Notes
 
 All student notes should be written here.
