@@ -5,12 +5,13 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - How do you indicate the relative link to a parent directory?
-
+.// followed by file name
 - How do you indicate the relative link to a child directory?
-
+use name of child folder followed by forward slash then file name
 - How do you indicate the relative link to a grand parent directory?
-
+repeat the ../ to indicate that you want to go up two folders(rather than one) then follow it with the file name
 - How do you indicate the relative link to the same directory?
+just use the file name.
 
 ## Notes
 
