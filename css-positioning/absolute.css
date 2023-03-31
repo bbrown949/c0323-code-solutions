@@ -12,7 +12,6 @@
 
 .emoji {
   font-size: 3rem;
-  float: right;
   position: absolute;
   text-align: right;
   right: 20px;
@@ -28,7 +27,7 @@
   text-transform: uppercase;
   position: absolute;
   text-align: center;
-  top: 150px;
+  bottom: 0;
 }
 
 .overlay {
