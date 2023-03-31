@@ -14,11 +14,6 @@
   display: flex;
 }
 
-.col-full {
-  text-align: center;
-  color: white;
-}
-
 .col-third {
   padding: 10px;
   text-align: center;
