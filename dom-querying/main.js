@@ -1,0 +1,14 @@
+console.log('hello, world');
+const title = document.querySelector('h1');
+console.log(title);
+console.dir(title);
+const textContent = document.querySelector('#explanation');
+console.log(textContent);
+console.dir(textContent);
+const selector = document.querySelector('.hint');
+console.log(selector);
+console.dir(selector);
+const pSelectorAll = document.querySelectorAll('p');
+console.log(pSelectorAll);
+const linkSelectorAll = document.querySelectorAll('example-link');
+console.log(linkSelectorAll);
