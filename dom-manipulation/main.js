@@ -12,7 +12,7 @@ function counter() {
     $hotButton.className = 'hot-button warm';
   } else if (numberClicks < 16) {
     $hotButton.className = 'hot-button hot';
-  } else if (numberClicks >= 17) {
+  } else if (numberClicks >= 16) {
     $hotButton.className = 'hot-button nuclear';
   }
 }
