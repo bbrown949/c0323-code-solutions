@@ -5,9 +5,9 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What event is fired when a user places their cursor in a form control?
-A mouse event
+focus
 - What event is fired when a user's cursor leaves a form control?
-The mouseleave event
+blur
 - What event is fired as a user changes the value of a form control?
 The input event
 - What event is fired when a user clicks the `"submit"` button within a `<form>`?
