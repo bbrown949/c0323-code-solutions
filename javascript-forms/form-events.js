@@ -1,16 +1,16 @@
 function handleFocus(event) {
-  console.log('focus event fired:', 'focus');
-  console.log(event.target.name);
+  console.log('focus event fired');
+  console.log(' event.target.name', event.target.name);
 }
 
 function handleBlur(event) {
-  console.log('blur event fired:', 'blur');
-  console.log(event.target.name);
+  console.log('blur event fired');
+  console.log(' event.target.name', event.target.name);
 }
 
 function handleInput(event) {
-  console.log(event.target.name);
-  console.log(event.target.value);
+  console.log('input event fired');
+  console.log('Value of:', event.target.name + ':', event.target.value);
 }
 
 const $userName = document.querySelector('#user-name');
