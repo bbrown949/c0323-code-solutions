@@ -1,0 +1,57 @@
+.modal-btn {
+  font-family: Rubik, sans-serif;
+  background-color: blue;
+  padding: 10px 40px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px grey;
+}
+
+.open-modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgb(0 0 0 / 50%);
+}
+
+.hidden {
+  display: none;
+}
+
+.text-content {
+  font-family: Rubik, sans-serif;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  margin: 20% auto;
+  padding: 20px;
+  width: 30%;
+  height: 180px;
+  align-items: center;
+}
+
+.close-btn {
+  font-family: Rubik, sans-serif;
+  background-color: #eb5d5d;
+  color: white;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-align: center;
+  width: 100px;
+  border-radius: 12px;
+  font-size: 20px;
+  box-shadow: 1px 1px 1px grey;
+}
