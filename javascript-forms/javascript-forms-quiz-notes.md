@@ -16,13 +16,13 @@ the submit event
 - What does the `event.preventDefault()` method do?
 cancels the event if it is cancelable,
 - What does submitting a form without `event.preventDefault()` do?
-wont submit?
+the url would contain the users data.
 
 - What property of a form element object contains all of the form's controls.
-The HTMLFormElement
+elements
 
 - What property of a form control object gets and sets its value?
-The method property
+value property
 - What is one risk of writing a lot of code without checking to see if it works so far?
 could have errors
 
