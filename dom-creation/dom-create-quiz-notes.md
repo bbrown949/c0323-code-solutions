@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Does the `document.createElement()` method insert a new element into the page?
-yes
+no
 
 - How do you add an element as a child to another element?
 appendChild()
