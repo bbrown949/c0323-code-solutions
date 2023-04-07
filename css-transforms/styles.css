@@ -29,12 +29,16 @@ img.pokeball {
   display: block;
 }
 
+button {
+  background-color: #808080;
+  color: white;
+}
+
 button:active {
   border: none;
   border-radius: 0.25rem;
   font-size: 1.25rem;
   color: white;
-  background-color: gray;
   transform: translateY(0.25rem);
 }
 
