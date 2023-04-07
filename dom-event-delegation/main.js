@@ -6,6 +6,5 @@ $taskList.addEventListener('click', function (event) {
     const $closest = event.target.closest('.task-list-item');
     console.log($closest);
     $closest.remove();
-    return $closest;
   }
 });
