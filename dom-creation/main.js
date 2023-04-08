@@ -61,6 +61,7 @@ function renderPokemon(pokemon) {
   const $columnThirdDiv = document.createElement('div');
   $columnThirdDiv.setAttribute('class', 'column-third');
   const $pokemonCardTextDiv = document.createElement('div');
+  $pokemonCardTextDiv.setAttribute('class', 'column-third');
   $columnThirdDiv.appendChild($pokemonCardTextDiv);
 
   const $pokeImages = document.createElement('img');
