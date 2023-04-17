@@ -38,8 +38,11 @@ const calculator = {
   // getAverage(numbers) - returns the average of an array of numbers
 
   getAverage: function (numbers) {
-    const average = (this.sumAll(numbers)) / numbers.length;
 
+    let average = 0;
+    for (let i = 0; i < numbers.length; i++) {
+      average += (numbers[i]) / numbers.length;
+    }
     return average;
   }
 };
