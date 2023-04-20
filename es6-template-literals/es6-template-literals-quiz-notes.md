@@ -5,9 +5,10 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is the syntax for writing a template literal?
+enclosed by backtick ( ` ) characters instead of double or single quotes.
 
 - What is "string interpolation"?
-
+a string literal that might contain interpolation expressions.
 
 ## Notes
 
