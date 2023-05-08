@@ -14,8 +14,8 @@ The parenthesis are returning a single value, the curly braces are executing mul
   In a concise body, only a single expression is specified, which becomes the implicit return value. In a block body, you must use an explicit return statement.
 - In the expression
   `js
-    foo(() => 42);
-    `
+  foo(() => 42);
+  `
 
   - Identify the arrow function
     It is the argument being passed into the function foo.
@@ -31,10 +31,10 @@ The parenthesis are returning a single value, the curly braces are executing mul
 
 - In the expression
   `` js
-    bar((y) => {
-      console.log(`4y = ${4 * y}`);
-    });
-     `` - Identify the arrow function
+  bar((y) => {
+    console.log(`4y = ${4 * y}`);
+  });
+   `` - Identify the arrow function
   It is the argument being passed into the function bar. - How many arguments does the arrow function take?
   zero - What value does it return?
   It returns a console.log of a string interpolation. - How many arguments are passed to the function `bar`?
@@ -43,6 +43,8 @@ The parenthesis are returning a single value, the curly braces are executing mul
   inside the function "bar' code block.
 - How does the value of `this` differ between standard functions and arrow functions?
   The value of this in the arrow function is determined at the time of declaration and never changes.
+  --- for standard functions 'this' is resolved based on calling object.
+  --for arrow functions, 'this' - see above answer.
 
 ## Notes
 
