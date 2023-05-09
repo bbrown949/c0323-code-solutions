@@ -1,0 +1,500 @@
+  182  git commit -m "completed javascript-modal challenge - Bryan Brown"
+  183  git push origin javascript-modal
+  184  git switch main
+  185  git branch javascript-typing-tutor
+  186  git switch javascript-typing-tutor
+  187  git switch main
+  188  git branch css-four-column-layout
+  189  git switch css-four-column-layout
+  190  git switch css-canvas-medical
+  191  git switch main
+  192  git pull origin main
+  193  git switch javascript-typing-tutor
+  194  git switch main
+  195  git branch javascript-forms
+  196  git switch javascript-forms
+  197  git add javascript-forms
+  198  git commit -m "javascript-forms - Bryan Brown"
+  199  git push origin javascript-forms
+  200  git add javascript-forms
+  201  git commit -m "javascript-forms updated"
+  202  git push origin javascript-forms
+  203  git add
+  204  git add javascript-forms
+  205  git commit -m "javascript-forms updated 2"
+  206  git push origin javascript-forms
+  207  git add javascript-forms
+  208  git commit -m "javascript-forms updated 3"
+  209  git push origin javascript-forms
+  210  git switch main
+  211  git switch javascript-forms
+  212  git switch main
+  213  git pull origin main
+  214  git branch dom-creation
+  215  git switch dom-creation
+  216  git switch main
+  217  git branch css-media-queries
+  218  git switch css-media-queries
+  219  git switch dom-creation
+  220  git switch css-media-queries
+  221  git switch dom-creation
+  222  git add dom-creation
+  223  git commit -m "completed dom-creation exercise - Bryan Brown"
+  224  git push origin dom-creation
+  225  git switch main
+  226  git switch css-media-queries
+  227  git switch dom-creation
+  228  git status
+  229  git switch css-media-queries
+  230  git add css-media-queries
+  231  git commit -m "css-media-queries updated"
+  232  git add css-media-queries
+  233  git status
+  234  git commit -m "completed css-media-queries updated - bryan brown"
+  235  git switch dom-creation
+  236  git ststus
+  237  git status
+  238  git add css-media-queries
+  239  git commit -m "css-media-queries"
+  240  git push origin css-media-queries
+  241  git switch dom-creation
+  242  git switch dom-creation
+  243  git add dom-creation
+  244  git commit -m "completed dom-creation exercise - Bryan Brown"
+  245  git push origin dom-creation
+  246  git status
+  247  git switch main
+  248  git branch css-transforms
+  249  git switch css-transforms
+  250  dom-creation
+  251  git switch dom-creation
+  252  git switch css-transforms
+  253  git switch css-media-queries
+  254  git switch css-transforms
+  255  git add css-media-queries
+  256  git commit -m "css-media-queries in progress"
+  257  git push origin css-media-queries
+  258  git status
+  259  git add css-media-queries
+  260  git restore css-media-queries
+  261  git restore css-media-queries/meta-viewport.html
+  262  git restore ../css-media-queries/meta-viewport.html
+  263  git switch css-transforms
+  264  git switch dom-creation
+  265  git add dom-creation
+  266  git commit -m "dom-creation updated"
+  267  git push origin dom-creation
+  268  git add ../dom-creation/main.js
+  269  git commit -m "updated"
+  270  git push origin ../dom-creation/main.js
+  271  git push origin dom-creation
+  272  git status
+  273  git add ../dom-creation/dom-create-quiz-notes.md
+  274  git commit -m "dom-creation updated"
+  275  git push origin dom-creation
+  276  git switch css-media-queries
+  277  git add css-media-queries
+  278  git commit -m "css-media-queries - bryan brown"
+  279  git add ../css-media-queries/at-media.html
+  280  git add ../css-media-queries/meta-viewport.html
+  281  git commit -m "css-media-queries - Bryan brown"
+  282  git commit -m "css-media-queries - bryan brown"
+  283  git add css-media-queries)
+  284  git add css-media-queries
+  285  git commit -m "css-media-queries - bryan brown"
+  286  git switch css-transforms
+  287  git status
+  288  git restore ../css-media-queries/meta-viewport.html
+  289  git status
+  290  git switch css-transforms
+  291  git switch css-transforms
+  292  git switch main
+  293  git status
+  294  git switch css-canvas-medical
+  295  git switch css-four-column-layout
+  296  git add css-four-column-layout
+  297  git commit -m "completed css-four-column-layout-Bryan Brown"
+  298  git commit -m "completed css-four-column-layoutchallenge - Bryan Brown"
+  299  git status
+  300  git commit -m "test"
+  301  git status
+  302  git commit -m "completed css-four-column-layout challenge - Bryan Brown"
+  303  git commit -m "test"
+  304  git switch javascript-typing-tutor
+  305  git status
+  306  git switch css-four-column-layout
+  307  git add css-four-column-layout
+  308  git switch javascript-typing-tutor
+  309  git ststus
+  310  git status
+  311  git switch main
+  312  git status
+  313  git switch dom-creation
+  314  git switch javascript-typing-tutor
+  315  git switch main
+  316  git branch css-ecommerce-page
+  317  git switch css-ecommerce-page
+  318  git switch main
+  319  git switch array-manipulation-1
+  320  git add array-manipulation-1
+  321  git commit -m "completed array-manipulation-1 exercise - Bryan Brown"
+  322  git push origin array-manipulation-1
+  323  git add array-manipulation-1
+  324  git commit -m "array-manipulation-1 - Bryan Brown"
+  325  git push origin array-manipulation-1
+  326  git switch main
+  327  git status
+  328  git branch string-manipulation-2
+  329  git switch string-manipulation-2
+  330  git status
+  331  git switch main
+  332  git branch array-manipulation-2
+  333  git switch array-manipulation-2
+  334  git switch main
+  335  git switch string-manipulation-2
+  336  git switch main
+  337  git switch array-manipulation-2
+  338  git switch main
+  339  git status
+  340  git branch javascript-custom-methods
+  341  git switch javascript-custom-methods
+  342  git add javascript-custom-methods
+  343  git commit -m "completed javascript-custom-methods exercise"
+  344  git add javascript-custom-methods
+  345  git commit -m "javascript-custom-methods - Bryan Brown"
+  346  git push origin javascript-custom-methods
+  347  git switch main
+  348  git pull origin main
+  349  git branch javascript-this
+  350  git switch javascript-this
+  351  git switch main
+  352  git branch javascript-prototypes
+  353  git switch javascript-prototypes
+  354  git switch javascript-this
+  355  git add javascript-this
+  356  git commit -m "completed javascript-this exercise - Bryan Brown
+  357  git commit -m "completed javascript-this exercise Bryan Brown"
+  358  git switch javascript-prototypes
+  359  git switch javascript-this
+  360  git add javascript-this
+  361  git commit -m "completed javascript-this exercise"
+  362  git push origin javascript-this
+  363  git switch main
+  364  git branch javascript-constructors
+  365  git switch javascript-constructors
+  366  git switch javascript-prototypes
+  367  git status
+  368  git switch javascript-constructors
+  369  git status
+  370  git add javascript-constructors
+  371  git add javascript-constructors
+  372  git commit -m "completed javascript-constructors exercise - Bryan Brown"
+  373  git push origin javascript-constructors
+  374  git switch main
+  375  git branch
+  376  git status
+  377  git switch javascript-bank
+  378  git branch javascript-bank
+  379  git switch javascript-bank
+  380  git switch main
+  381  git branch es6-classes
+  382  git switch es6-classes
+  383  git switch javascript-this
+  384  git add javascript-this
+  385  git commit -m "completed javascript-thisexercise - Bryan Brown"
+  386  git switch es6-classes
+  387  git switch main
+  388  git branch javascript-timers
+  389  git switch javascript-timers
+  390  git add javascript-timers
+  391  git commit -m "completed javascript-timers - Bryan Brown"
+  392  git push origin javascript-timers
+  393  git switch main
+  394  git branch javascript-carousel
+  395  git switch javascript-carousel
+  396  git switch main
+  397  git branch es6-template-literals
+  398  git switch es6-template-literals
+  399  git switch main
+  400  git switch javascript-timers
+  401  git switch main
+  402  git switch es6-classes
+  403  git switch main
+  404  git branch es6-template-literals
+  405  git switch es6-template-literals
+  406  git add es6-template-literals
+  407  git commit -m "Completed es6-template-literals - Bryan Brown"
+  408  git push origin es6-template-literals
+  409  git switch main
+  410  git pull origin main
+  411  git switch javascript-typing-tutor
+  412  git switch main
+  413  git switch dom-creation
+  414  git switch main
+  415  git switch es6-template-literals
+  416  git status
+  417  git status
+  418  git switch dom-creation
+  419  git switch es6-template-literals
+  420  git restore es6-template-literals/es6-template-literals-quiz-notes.md
+  421  git switch es6-template-literals
+  422  git add es6-template-literals
+  423  git commit -m "es6-template-literals quiz questions updated"
+  424  git status
+  425  git push origin es6-template-literals
+  426  git switch main
+  427  git branch http-messages
+  428  git switch http-messages
+  429  https httpie.io/hello
+  430  http https://example.com
+  431  http --verbose https://example.com
+  432  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  433  http --body GET https://example.com > http-messages/index.html
+  434  git add http-messages
+  435  git commit -m "Com pleted http-messages exercise - Bryan Brown"
+  436  git push origin http-messages
+  437  git switch main
+  438  git pull origin main
+  439  git status
+  440  git branch javascript-ajax
+  441  git switch javascript-ajax
+  442  git add javascript-ajax
+  443  git commit -m "Completed javascript-ajax exercise - Bryan Brown"
+  444  git push origin javascript-ajax
+  445  git switch main
+  446  git branch dog-rescue-home
+  447  git switch dog-rescue-home
+  448  git switch main
+  449  git pull origin main
+  450  git switch dog-rescue-home
+  451  http https://www.petfinder.com/developers/
+  452  http --verbose https://www.petfinder.com/developers/
+  453  git switch main
+  454  git switch javascript-typing-tutor
+  455  git add javascript-typing-tutor
+  456  git commit -m "Completed Javascript Typing Tutor exercise - Bryan Brown"
+  457  git push origin javascript-typing-tutor
+  458  git switch main
+  459  git switch css-canvas-medical
+  460  git switch main
+  461  git switch javascript-prototypes
+  462  git add javascript-prototypes
+  463  git commit -m "Completed javascript-prototypes exercise - Bryan Brown"
+  464  git push origin javascript-prototypes
+  465  git switch main
+  466  git switch dog-rescue-home
+  467  git switch http-messages
+  468  http https://example.com
+  469  http --verbose https://example.com
+  470  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  471  http --body GET https://jsonplaceholder.typicode.com/users > dog-rescue-home/users.json
+  472  http --body GET https://example.com > dog-rescue-home/index.html
+  473  curl -d "grant_type=client_credentials&client_id={LyiFvrdTVan2Ttn0qh2hdSyekh9V8BBxJmDl4GTePnalRtw1Cv
+  474  }&client_secret={Ua0keDlUKSTObxovCKieTixfDSbTVmGFIfDnBUbi}" https://api.petfinder.com/v2/oauth2/token
+  475  http curl -d "grant_type=client_credentials&client_id={LyiFvrdTVan2Ttn0qh2hdSyekh9V8BBxJmDl4GTePnalRtw1Cv                        
+  476  }&client_secret={Ua0keDlUKSTObxovCKieTixfDSbTVmGFIfDnBUbi}" https://api.petfinder.com/v2/oauth2/token
+  477  GET https://api.petfinder.com/v2/animals
+  478  http GET https://api.petfinder.com/v2/animals
+  479  curl -d "grant_type=client_credentials&client_id={CLIENT-ID}&client_secret={CLIENT-SECRET}" https://api.petfinder.com/v2/oauth2/token
+  480  LyiFvrdTVan2Ttn0qh2hdSyekh9V8BBxJmDl4GTePnalRtw1Cv
+  481  LyiFvrdTVan2Ttn0qh2hdSyekh9V8BBxJmDl4GTePnalRtw1Cv
+  482  git switch javascript-ajax
+  483  git switch dog-rescue-home
+  484  curl -d "grant_type=client_credentials&client_id={LyiFvrdTVan2Ttn0qh2hdSyekh9V8BBxJmDl4GTePnalRtw1Cv}&client_secret={Ua0keDlUKSTObxovCKieTixfDSbTVmGFIfDnBUbi}" https://api.petfinder.com/v2/oauth2/token
+  485  http curl -d "grant_type=client_credentials&client_id={LyiFvrdTVan2Ttn0qh2hdSyekh9V8BBxJmDl4GTePnalRtw1Cv}&client_secret={Ua0keDlUKSTObxovCKieTixfDSbTVmGFIfDnBUbi}" https://api.petfinder.com/v2/oauth2/token
+  486  http https://www.petfinder.com/developers/
+  487  http https://petfinder.com
+  488  http --verbose https://petfinder.com
+  489  git switch main
+  490  git switch css-canvas-medical
+  491  git switch main
+  492  git switch dom-creation
+  493  git switch css-transitions
+  494  git switch css-canvas-medical
+  495  git switch es6-classes
+  496  git switch array-manipulation-1
+  497  git switch object-manipulation-1
+  498  git switch main
+  499  git switch array-manipulation-1
+  500  git switch object-manipulation-1
+  501  git switch main
+  502  npm install --save-dev prettier eslint-config-prettier
+  503  npm install --save-dev stylelint@latest
+  504  npm install --save-dev stylelint@latest --legacy-peer-deps
+  505  git status
+  506  git add object-manipulation-1/main.js
+  507  git status
+  508  git add .devcontainer/devcontainer.json
+  509  git add .eslintrc
+  510  git add .lintstagedrc
+  511  git add .prettierrc
+  512  git add  .stylelintrc
+  513  git add package-lock.json
+  514  git add package.json
+  515  git status
+  516  git commit -m "seniot side adds"
+  517  git status
+  518  git status
+  519  git status
+  520  git add .devcontainer/devcontainer.json
+  521  git add .eslintrc
+  522  git add .lintstagedrc
+  523  git add .markuplintrc
+  524  git add .prettierrc
+  525  git restore javascript-conditionals/main.js
+  526  git add  package-lock.json
+  527  git add package.json
+  528  git commit -m "senior test"
+  529  git push origin main
+  530  git pull origin main
+  531  git push origin main
+  532  git pull origin main
+  533  git restore array-manipulation-2/
+  534  git pull origin main
+  535  git status
+  536  git add .stylelintrc
+  537  git commit -M "added .stylelintrc"
+  538  git commit -m "added style"
+  539  git push origin main
+  540  git status
+  541  git add .
+  542  git status
+  543  git commit -m "my exercises"
+  544  git commit -m "my exercises" --no-check
+  545  git commit -m "my exercises" --no-verify
+  546  git push origin main
+  547  git pull origin main
+  548  git status
+  549  git add .
+  550  git commit -m "my exercises" --no-verify
+  551  git push origin main
+  552  git status
+  553  git add .
+  554  git commit -m "senior lint changes"
+  555  git push origin main
+  556  git branch es6-destructuring
+  557  git switch es6-destructuring
+  558  git status
+  559  git add es6-destructuring
+  560  git commit -m "completed es6-destructuring exercise - Bryan Brown"
+  561  git status
+  562  git status
+  563  git status
+  564  git add es6-destructuring
+  565  git status
+  566  git commit -m "completed es6-destructuring exercise - Bryan Brown"
+  567  git status
+  568  git add es6-destructuring/main.js
+  569  git status
+  570  git commit -m "completed es6-destructuring exercise - Bryan Brown"
+  571  npm install
+  572  npm install eslint-plugin-import@latest --save-dev
+  573  npm install
+  574  git status
+  575  git add .
+  576  git commit -m "completed es6 destructuring assignment - Bryan Brown"
+  577  git push origin es6-destructuring
+  578  git switch main
+  579  git pull origin main
+  580  git branch es6-arrow-functions
+  581  git switch es6-arrow-functions
+  582  git add es6-arrow-functions
+  583  git commit -m "completed es6-arrow-functions - Bryan Brown"
+  584  git status
+  585  git status
+  586  git push origin es6-arrow-functions
+  587  git switch main
+  588  git status
+  589  git add es6-arrow-functions
+  590  git commit -m "notes"
+  591  git push origin es6-arrow-functions
+  592  git switch main
+  593  git branch es6-operators
+  594  git switch es6-operators
+  595  git status
+  596  git add es6-operators
+  597  git status
+  598  git commit -m "completed es6-operators exercise - Bryan Brown"
+  599  git push origin es6-operators
+  600  git swit h main
+  601  git switch main
+  602  git pull origin main
+  603  git switch object-manipulation-2
+  604  git branch array-methods
+  605  git switch array-methods
+  606  git add array-methods
+  607  git commit -m "completed array methods exercise - Bryan Brown"
+  608  git push origin array-methods
+  609  git status
+  610  git add es6-operators
+  611  git status
+  612  git commit -m "updated quiz notes"
+  613  git status
+  614  git switch main
+  615  git branch command-line-basics
+  616  git switch command-line-basics
+  617  cd command-line-basics
+  618  man man
+  619  man cat
+  620  cat laziness.txt
+  621  cat impatience.txt
+  622  cat hubris.txt
+  623  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  624  cat three-virtues.txt
+  625  man ls
+  626  ls command-line-basics
+  627  ls -a command-line-basics
+  628  ls
+  629  ls -a
+  630  ls -F
+  631  ls lfz-staff/
+  632  ls -a lfz-staff/
+  633  ls -F lfz-staff/
+  634  ls -aF lfz-staff > lfz-staff/contents.txt
+  635  cat lfz-staff/contents.txt
+  636  man pwd
+  637  pwd
+  638  pwd > i-was-here.txt
+  639  ls
+  640  cat i-was-here.txt
+  641  man echo
+  642  echo 'Hello, World!'
+  643  echo 'Hello, World!' > hello.txt
+  644  ls
+  645  cat hello.txt
+  646  man touch
+  647  touch tag-youre-it.txt
+  648  touch snoot/boop.txt
+  649  ls snoot/
+  650  man mkdir
+  651  mkdir parent
+  652  ls parent/
+  653  ls
+  654  mkdir -p parent/child/grandchild
+  655  touch parent/child/grandchild.gitkeep
+  656  ls -a
+  657  man mv
+  658  mv pokimans > pokemon
+  659  mv pokimans
+  660  man mv
+  661  mv pokimans pokemon
+  662  mv pokiemans pokemon
+  663  mv pokemon pokiemans
+  664  mv pokimans pokemon
+  665  mv pokiemans pokemon
+  666  mv pokiemans > pokemon
+  667  ls
+  668  man rm
+  669  rm lol.txt
+  670  ls
+  671  rm -r kill-me/
+  672  ls
+  673  man cp
+  674  man cp
+  675  cp and-then.txt no-and-then.txt
+  676  ls
+  677  cat and-then.txt
+  678  cat no-and-then.txt
+  679  man history
+  680  history
+  681  history > command-history.txt
