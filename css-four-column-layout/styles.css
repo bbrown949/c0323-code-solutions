@@ -1,0 +1,39 @@
+#container {
+  padding: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  font-family: Barlow, sans-serif;
+  font-weight: bolder;
+}
+
+.col-fourth {
+  display: flex;
+  flex-basis: calc(100% / 4);
+  justify-content: center;
+  font-family: Barlow, sans-serif;
+}
+
+img {
+  width: 70%;
+}
+
+.icon {
+  max-width: 100px;
+  text-align: center;
+}
+
+.icon-wrapper {
+  text-align: center;
+}
+
+.image-wrapper {
+  text-align: center;
+}
+
+h2 {
+  font-weight: bolder;
+}

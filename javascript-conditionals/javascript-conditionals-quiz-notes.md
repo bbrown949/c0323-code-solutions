@@ -5,6 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - Give 6 examples of comparison operators.
+
 equal (==)
 not equal (!=)
 strict equal (===)
@@ -12,15 +13,29 @@ strict not equal (!===)
 greater than (>)
 greater than or equal (>=)
 
+
+<
+>
+===
+!=
+<=
+>=
+
 - What data type do comparison expressions evaluate to?
 boolean
 
 - What is the purpose of an `if` statement?
+
 The IF statement is a decision-making statement that guides a program to make decisions based on specified criteria. The IF statement executes one set of code if a specified condition is met (TRUE) or another set of code evaluates to FALSE.
+
+lets your program know whether or not it should execute a block of code
+
+
 - Is `else` required in order to use an `if` statement?
 no
 
 - Describe the syntax (structure) of an `if` statement.
+
 (if
   (then
     ;; do something
@@ -41,6 +56,18 @@ The switch statement evaluates an expression, matching the expression's value ag
 
 - Is a `default` clause required in order to use a `switch` statement?
 no code would still be valid
+
+if statement followed by a condition within ()followed by { followed by a statement followed by }
+- What are the three logical operators?
+| (OR), && (AND), ! (NOT).
+- How do you compare two different expressions in the same condition?
+===
+
+- What is the purpose of a `switch` statement?
+executes a block of code depending on different cases
+- Is a `default` clause required in order to use a `switch` statement?
+no
+
 
 ## Notes
 
