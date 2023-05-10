@@ -1,13 +1,13 @@
 /* exported take */
 function take(array, count) {
-  let returnedArray = [];
+  let newArray = [];
   if (array.length === 0) {
-    returnedArray = [];
-    return returnedArray;
+    newArray = [];
+    return newArray;
   } else {
     for (let i = 0; i < count; i++) {
-      returnedArray.push(array[i]);
+      newArray.push(array[i]);
     }
-    return returnedArray;
+    return newArray;
   }
 }

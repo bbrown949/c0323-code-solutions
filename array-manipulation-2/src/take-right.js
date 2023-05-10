@@ -1,15 +1,15 @@
 /* exported takeRight */
 function takeRight(array, count) {
-  const finishedArray = [];
+  const newArray = [];
   if (count > array.length) {
     for (let i = 0; i < array.length; i++) {
-      finishedArray.push(array[i]);
+      newArray.push(array[i]);
     }
-    return finishedArray;
+    return newArray;
   } else {
     for (let j = array.length - count; j < array.length; j++) {
-      finishedArray.push(array[j]);
+      newArray.push(array[j]);
     }
-    return finishedArray;
+    return newArray;
   }
 }
