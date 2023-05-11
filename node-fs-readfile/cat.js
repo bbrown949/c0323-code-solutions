@@ -1,27 +1,12 @@
-// import { readFile } from 'node:fs/promises';
-
-// const [, , ...args] = process.argv;
-
-// async function readAny(fileName) {
-//   try {
-//     const file = await readFile(fileName, 'utf-8');
-//     await console.log(file);
-//   } catch (error) {
-//     console.log(error);
-//   }
-// }
-
 import { readFile } from 'node:fs/promises';
+const [, , ...filenames] = process.argv;
 
-const [, , ...files] = process.argv;
+const promises = filenames.map((filename) => readFile(filename, 'utf8'));
 
-async function readAll(books) {
-  const bks = books.map(async (element) => {
-    return await readFile(element, 'utf8');
-  });
-
-  const done = await Promise.all(bks);
-  done.forEach((element) => console.log(element));
+try {
+  const files = await Promise.all(promises);
+  console.log(files.join('\n'));
+} catch (err) {
+  console.error('Error reading files', err);
+  // process.exit(1)
 }
-
-await readAll(files);

@@ -1,9 +1,9 @@
 import { readFile } from 'node:fs/promises';
 
 try {
-  const filePath = new URL('dijkstra.txt', import.meta.url);
-  const contents = await readFile(filePath, { encoding: 'utf8' });
-  console.log(contents);
+  const text = await readFile('dijkstra.txt', 'utf8');
+  console.log(text);
 } catch (err) {
-  console.error(err.message);
+  console.error('Error reading file:', err);
+  // process.exit(1);
 }
