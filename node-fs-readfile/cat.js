@@ -1,12 +1,10 @@
 import { readFile } from 'node:fs/promises';
-const [, , ...filenames] = process.argv;
 
-const promises = filenames.map((filename) => readFile(filename, 'utf8'));
-
+const [, , ...files] = process.argv;
+const promises = files.map((files) => readFile(files, 'utf8'));
 try {
-  const files = await Promise.all(promises);
-  console.log(files.join('\n'));
-} catch (err) {
-  console.error('Error reading files', err);
-  // process.exit(1)
+  const contents = await Promise.all(promises);
+  console.log(contents.join('\n'));
+} catch (error) {
+  console.error(error.message);
 }
