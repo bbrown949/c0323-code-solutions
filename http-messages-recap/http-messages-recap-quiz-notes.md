@@ -5,10 +5,9 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is a client?
-  the providers of a resource or service
+  In computing,[1] a client is a piece of computer hardware or software that accesses a service made available by a server as part of the client–server model
 - What is a server?
-  service requesters
-- Which HTTP method does a browser issue to a web server when you visit a URL?
+  A server is a computer program or device that provides a service to another computer program and its user, also known as the client.- Which HTTP method does a browser issue to a web server when you visit a URL?
   GET, POST, PUT, PATCH, DELETE, or a handful of other HTTP verbs. request target?
 - What is on the first line of an HTTP **request** message?
   The protocol version, usually HTTP/1.1 . A status code, indicating success or failure of the request.
