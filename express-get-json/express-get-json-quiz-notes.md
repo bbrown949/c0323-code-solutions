@@ -7,7 +7,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What is an API endpoint?
   Each endpoint is the location from which APIs can access the resources they need to carry out their function.
 - What is the appropriate `Content-Type` header for HTTP messages that contain JSON in their bodies?
-  The right content type for JSON is application/json
+  The right content type ffor JSON is application/json
 
 ## Notes
 
