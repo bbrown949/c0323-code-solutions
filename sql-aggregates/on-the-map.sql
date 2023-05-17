@@ -1,4 +1,4 @@
-select count("countryId") as "totalCities",
+select count(*) as "totalCities",
        "countries"."name"
       from "cities"
       join "countries" using ("countryId")
