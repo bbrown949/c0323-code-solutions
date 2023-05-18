@@ -68,7 +68,7 @@ app.put('/api/grades/:gradeId', async (req, res) => {
     ) {
       res.status(400).json({
         error:
-          'missing name, course, or score | score must be a positive integer between 0-100 | must have valid gradeId',
+          'missing name, course, or score, score must be a positive integer between 0-100, must have valid gradeId',
       });
       return;
     }
