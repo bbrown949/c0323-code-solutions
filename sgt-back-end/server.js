@@ -13,6 +13,14 @@ const db = new pg.Pool({
   },
 });
 
+// GET /api/grades returns all rows from the "grades" table. The client should
+// receive an array of objects. If there happens to be no rows, an empty array is ok.
+
+// The result could be a 200 or a 500.
+
+// 200 because the query may succeed
+// 500 because the query may fail
+
 app.get('/api/grades', async (req, res) => {
   try {
     const sql = `
@@ -26,6 +34,14 @@ app.get('/api/grades', async (req, res) => {
     res.status(500).json({ error: 'an unexpected error occured' });
   }
 });
+
+// POST /api/grades inserts a new grade into the "grades" table and returns
+// the created grade. The client should receive an object, not an array.
+// The result could be a 201, 400, or 500.
+
+// 201 because the grade was successfully inserted
+// 400 because the client may supply an invalid grade, including a missing name, course, or score. Or the score isn't an integer from 0 to 100
+// 500 or the query may fail
 
 app.post('/api/grades', async (req, res) => {
   try {
@@ -55,6 +71,17 @@ app.post('/api/grades', async (req, res) => {
     res.status(500).json({ error: 'an unexpected error occurred' });
   }
 });
+
+// PUT /api/grades/:gradeId updates a grade in the "grades" table and returns
+// the updated grade. The client should receive an object, not an array.
+// Your code should require that the client includes the name, course, and score in the request body.
+
+// The result could be a 200, 400, 404, or 500.
+
+// 200 because the grade may be successfully updated,
+// 400 because the client may supply an invalid gradeId or invalid/missing name, course, or score
+// 404 because the target grade may not exist in the database
+// 500 or there may be an error querying the database
 
 app.put('/api/grades/:gradeId', async (req, res) => {
   try {
@@ -95,6 +122,15 @@ app.put('/api/grades/:gradeId', async (req, res) => {
     res.status(500).json({ error: 'an unexpected error occured' });
   }
 });
+
+// DELETE /api/grades/:gradeId deletes a grade from the "grades" table.
+
+// The result could be a 204, 400, 404, or 500.
+
+// 204 because the grade may be successfully deleted
+// 400 because the client may supply an invalid gradeId
+// 404 because the target grade may not exist in the database
+// 500 or there may be an error querying the database.
 
 app.delete('/api/grades/:gradeId', async (req, res) => {
   const gradeId = Number(req.params.gradeId);
