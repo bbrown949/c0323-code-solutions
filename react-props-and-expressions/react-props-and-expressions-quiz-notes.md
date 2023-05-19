@@ -5,12 +5,13 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What are props in React?
-
+  a type of object where the value of attributes of a tag is stored
 - How do you declare and access props in a component?
-
+  declare as function parameters and access using destructuring
 - How do you pass props to a component?
-
+  Props are usually passed from a parent component to a child component.
 - How do you write JavaScript expressions in JSX?
+  write it in curly brackets
 
 ## Notes
 
