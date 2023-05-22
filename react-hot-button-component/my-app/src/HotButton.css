@@ -1,0 +1,47 @@
+.button {
+  color: white;
+  background-color: purple;
+  border: black;
+  box-shadow: black;
+  cursor: pointer;
+}
+
+.button2 {
+  color: white;
+  background-color: #674ea7;
+  border: black;
+  box-shadow: black;
+  cursor: pointer;
+}
+
+.button3 {
+  color: white;
+  background-color: #e06666;
+  border: black;
+  box-shadow: black;
+  cursor: pointer;
+}
+
+.button4 {
+  color: black;
+  background-color: #f6b26a;
+  border: black;
+  box-shadow: black;
+  cursor: pointer;
+}
+
+.button5 {
+  color: black;
+  background-color: yellow;
+  border: black;
+  box-shadow: black;
+  cursor: pointer;
+}
+
+.button6 {
+  color: black;
+  background-color: white;
+  border: black;
+  box-shadow: black;
+  cursor: pointer;
+}
