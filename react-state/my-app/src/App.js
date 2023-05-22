@@ -10,24 +10,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <ToggleButton
-          text="React"
-          color="red"
-          textTwo="Bryan"
-          colorTwo="pink"
-        />
-        <ToggleButton
-          text="Toggle"
-          color="green"
-          textTwo="Brown"
-          colorTwo="purple"
-        />
-        <ToggleButton
-          text="Button"
-          color="lightblue"
-          textTwo="hello"
-          colorTwo="orange"
-        />
+        <ToggleButton text="React" color="red" />
+        <ToggleButton text="Toggle" color="green" />
+        <ToggleButton text="Button" color="lightblue" />
       </header>
     </div>
   );
