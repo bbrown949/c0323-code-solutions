@@ -12,7 +12,7 @@ export default function ToggleSwitch() {
     <>
       <label class="switch">
         <input onClick={handleClick} type="checkbox" />
-        <span class="slider round"></span>
+        <span class="slider"></span>
       </label>
       <div>{onOff}</div>
     </>
