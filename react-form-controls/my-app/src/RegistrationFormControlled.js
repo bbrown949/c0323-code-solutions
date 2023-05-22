@@ -15,6 +15,7 @@ export default function RegistrationFormControlled() {
         Username
         <input
           type="text"
+          name="userName"
           value={username}
           onChange={(event) => setUsername(event.target.value)}></input>
       </label>
@@ -23,6 +24,7 @@ export default function RegistrationFormControlled() {
         Password
         <input
           type="password"
+          name="password"
           value={password}
           onChange={(event) => setPassword(event.target.value)}></input>
       </label>
