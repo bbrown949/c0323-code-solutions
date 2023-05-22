@@ -1,0 +1,47 @@
+.buttonOne {
+  color: white;
+  background-color: purple;
+  border: black;
+  box-shadow: black;
+  cursor: pointer;
+}
+
+.buttonTwo {
+  color: white;
+  background-color: #674ea7;
+  border: black;
+  box-shadow: black;
+  cursor: pointer;
+}
+
+.buttonThree {
+  color: white;
+  background-color: #e06666;
+  border: black;
+  box-shadow: black;
+  cursor: pointer;
+}
+
+.buttonFour {
+  color: black;
+  background-color: #f6b26a;
+  border: black;
+  box-shadow: black;
+  cursor: pointer;
+}
+
+.buttonFive {
+  color: black;
+  background-color: yellow;
+  border: black;
+  box-shadow: black;
+  cursor: pointer;
+}
+
+.buttonSix {
+  color: black;
+  background-color: white;
+  border: black;
+  box-shadow: black;
+  cursor: pointer;
+}
