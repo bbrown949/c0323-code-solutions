@@ -17,6 +17,7 @@ Because changing the state will re-render your component to present the most rec
 - What two actions happen when you call a `state setter` function?
   update the variable and trigger React to render the component again
 - When does the local `state variable` get updated with the new value?
+  when the setState function is called.
 
 ## Notes
 
