@@ -8,17 +8,17 @@ export default function HotButton({ className }) {
   }
 
   if (timesClicked < 3) {
-    className = 'buttonOne';
+    className = 'button';
   } else if (timesClicked < 6) {
-    className = 'buttonTwo';
+    className = 'button2';
   } else if (timesClicked < 9) {
-    className = 'buttonThree';
+    className = 'button3';
   } else if (timesClicked < 12) {
-    className = 'buttonFour';
+    className = 'button4';
   } else if (timesClicked < 15) {
-    className = 'buttonFive';
+    className = 'button5';
   } else if (timesClicked < 18) {
-    className = 'buttonSix';
+    className = 'button6';
   }
   return (
     <button className={className} onClick={handleClick}>
