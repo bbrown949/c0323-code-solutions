@@ -56,6 +56,6 @@ span {
   font-weight: bolder;
 }
 
-/* .checkbox {
-  color: greenyellow
-} */
+.checkbox {
+  padding-left: 10px;
+}
