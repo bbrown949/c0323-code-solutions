@@ -32,7 +32,7 @@ export default function ValidatedInput() {
           value={password}
           onSubmit={handleSubmit}></input>
         <span class="checkOrX">{checkOrX}</span>
-        <p style={{ color: 'red' }}>{text}</p>
+        <p>{text}</p>
       </div>
     </form>
   );
