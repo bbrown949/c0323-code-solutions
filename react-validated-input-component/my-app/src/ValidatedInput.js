@@ -31,7 +31,7 @@ export default function ValidatedInput() {
           onChange={(event) => setPassword(event.target.value)}
           value={password}
           onSubmit={handleSubmit}></input>
-        <span class="checkbox">{checkOrX}</span>
+        <span class="checkOrX">{checkOrX}</span>
         <p style={{ color: 'red' }}>{text}</p>
       </div>
     </form>
