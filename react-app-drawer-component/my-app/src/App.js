@@ -2,11 +2,11 @@ import './App.css';
 import AppDrawer from './AppDrawer';
 
 const listItems = [
-  { number: '001', name: 'Jedi' },
-  { number: '002', name: 'Sith' },
-  { number: '003', name: 'Wookee' },
-  { number: '004', name: 'Ewok' },
-  { number: '005', name: 'Mandalorian' },
+  { id: 1, name: 'Jedi' },
+  { id: 2, name: 'Sith' },
+  { id: 3, name: 'Wookee' },
+  { id: 4, name: 'Ewok' },
+  { id: 5, name: 'Mandalorian' },
 ];
 
 function App() {

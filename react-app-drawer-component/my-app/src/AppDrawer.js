@@ -24,7 +24,7 @@ export default function AppDrawer({ listItems }) {
 
 function DrawerList({ listItems }) {
   const list = listItems.map((item) => (
-    <li key={item.number} className="menu-items">
+    <li key={item.id} className="menu-items">
       {item.name}
     </li>
   ));
