@@ -11,11 +11,11 @@ export default function Carousel({ data }) {
   const [currentIndex, setIndex] = useState(0);
   const currentImg = data[currentIndex];
 
-  const rightClick = useEffect(() => {
+  const handleRightClick = useEffect(() => {
     setIndex((prev) => (prev + 1) % data.length);
   }, [data]);
 
-  function leftClick() {
+  function handleLeftClick() {
     setIndex((currentIndex - 1 + data.length) % data.length);
   }
 
@@ -26,7 +26,7 @@ export default function Carousel({ data }) {
     return () => clearInterval(interval);
   }, [currentIndex, data.length]);
 
-  function dotClick(index) {
+  function HandleDotClick(index) {
     setIndex(index);
   }
 
@@ -34,13 +34,13 @@ export default function Carousel({ data }) {
     <div className="container">
       <div className="row">
         <div className="column-third align-arrows">
-          <FaChevronLeft onClick={leftClick} className="arrow" />
+          <FaChevronLeft onClick={handleLeftClick} className="arrow" />
         </div>
         <div className=" column-third">
           <img src={currentImg.imgUrl} alt={currentImg.name} />
         </div>
         <div className="column-third align-arrows">
-          <FaChevronRight onClick={rightClick} className="arrow" />
+          <FaChevronRight onClick={handleRightClick} className="arrow" />
         </div>
       </div>
       <div className="row">
@@ -49,7 +49,7 @@ export default function Carousel({ data }) {
             <ProgressDot
               key={data.id}
               currentIndex={currentIndex}
-              dotClick={dotClick}
+              dotClick={HandleDotClick}
               index={index}
             />
           ))}
