@@ -1,5 +1,14 @@
 /* exported dropRight */
 function dropRight(array, count) {
+
+  const arr = [];
+  for (let i = 0; i < array.length; i++) {
+    if (i < array.length - count) {
+      arr.push(array[i]);
+    }
+  }
+  return arr;
+
   const newArr = [];
   for (let i = 0; i < array.length - count; i++) {
     if (array[i]) {
@@ -9,4 +18,5 @@ function dropRight(array, count) {
     }
   }
   return newArr;
+
 }

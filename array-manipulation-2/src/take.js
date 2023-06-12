@@ -1,5 +1,17 @@
 /* exported take */
 function take(array, count) {
+
+  let newArray = [];
+  if (array.length === 0) {
+    newArray = [];
+    return newArray;
+  } else {
+    for (let i = 0; i < count; i++) {
+      newArray.push(array[i]);
+    }
+    return newArray;
+  }
+
   const newArr = [];
 
   for (let i = 0; i < count; i++) {
@@ -8,4 +20,5 @@ function take(array, count) {
     }
   }
   return newArr;
+
 }
