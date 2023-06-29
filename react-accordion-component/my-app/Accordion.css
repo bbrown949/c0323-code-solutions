@@ -1,0 +1,17 @@
+p {
+  border: solid black;
+  margin: 0;
+  font-family: Pangolin, cursive;
+  max-width: 350px;
+}
+
+h2 {
+  border: solid black;
+  font-family: Pangolin, cursive;
+  background-color: #ddd;
+  max-width: 350px;
+  height: 40px;
+  padding-top: 5px;
+  padding-left: 5px;
+  margin: 0;
+}
